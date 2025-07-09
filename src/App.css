@@ -8,6 +8,21 @@
     max-width: 500px;
 }
 
+.propscard{
+    background-color:beige;
+    max-width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: sans-serif;
+    padding: 2px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+.propscard img{
+    width: 200px;
+}
+
 @media (max-width:780px) {
     .routerr{
         display: flex;

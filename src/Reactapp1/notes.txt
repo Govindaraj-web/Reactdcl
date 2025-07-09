@@ -1,0 +1,28 @@
+
+UseEffect => example below:
+
+i) useEffect(()=>{
+    console.log('use Effect Called')
+    console.log(dummy)
+})  without dependency call useEffect all function once rendering also
+
+
+
+ii)useEffect(()=>{
+    console.log('use Effect Called')
+    console.log(dummy)
+},[]) Empty dependency when will you give one time only call useEffect and rendering.
+
+
+
+iii)  useEffect(()=>{
+    console.log('use Effect Called')
+    console.log(dummy)
+},[dummy]) add one dependency call useEffect that time only (or) When you click delete button that time only call useEffect.
+
+
+
+iv) useEffect(()=>{
+    console.log('use Effect Called')
+    console.log(dummy)
+},[courses]) when you click delete button that time only call useEffect.

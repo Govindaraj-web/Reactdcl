@@ -1,0 +1,27 @@
+
+Ctrl + / = Single Line Commend
+Ctrl + / = Full line (Multiple line ) Commend
+Shift + Alt + A = Commend React 
+
+
+Ctrl + Alt + R = rafce (Search snippet & automatic page function )
+
+rfce (Type directly on new file) create automatic page funtion
+
+Alt + z = Screen size adjustable ( Word Warp)
+
+Alt + Shift + f = VS code Alignment
+
+Tab (front moving 3 to 4 lines) 
+Tab + Shift (Back moving 3 to 4 lines)
+
+
+Shift + Ctrl + P = Simple browser (without browser we can see inside VS)
+
+
+https://jsonplaceholder.typicode.com/posts (Json How to fetch the data from Resources link) && React video (io channel) Time: 4:18
+
+
+And operator 1*1 = 1 (t), 1*0 =0 (f), 
+Or operator 1+1 =2 (t), 1+0 =1 (t), 0+0=0 (f)
+

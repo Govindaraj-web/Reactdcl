@@ -1,0 +1,219 @@
+Q1)
+console.log("arjun"<70) //Ans: false
+console.log("arjun">70) //Ans: false
+console.log("70">80) //Ans: false
+console.log(80>70) //Ans: true
+
+Q2)
+[y] = [1,2,3,4,5]
+console.log(y)  //Ans: 1
+
+Q3)
+let a= 100
+const b =  a++ + ++a // 101 + 101 = 202
+console.log(b) //Ans: 202
+
+Q4)
+function abc(){
+    console.log(abc.xyz)
+}
+abc()
+abc.xyz=400
+abc.xyz=200
+abc()
+
+
+Interview No -20
+Q5)
+const numbers=[1,2,3,4]
+numbers[100]=500
+console.log(numbers) //Ans: [ 1, 2, 3, 4, <96 empty items>, 500 ]
+
+Q6)
+console.log(typeof typeof 100)
+typeof 100 → "number" (a string)
+typeof "number" → "string"
+✅ So the output is: "string"
+
+
+Q7)
+const arr = [..."arjun"]
+console.log(arr) //Ans: [ 'a', 'r', 'j', 'u', 'n' ]
+
+Q8)
+console.log(parseInt("10+2")) 
+console.log(parseInt("7F7"))
+console.log(parseInt("M7F")) 
+
+Q9)
+console.log(isNaN("arjun")) //Ans: true
+console.log(isNaN("7")) //Ans: false
+
+Q10)
+console.log([1,2].map(num=>{
+    if(num>0) return;
+    return num * 2
+}))
+if (1 > 0) return; // true → so it just returns undefined
+if (2 > 0) return; // true → again returns undefined
+Ans: [undefined, undefined]
+
+
+console.log([1,2,0,-1].map(num=>{
+    if(num>0) return;
+    return num*2
+})) 
+if (0 > 0) return; // false => return 0 * 2;   // → returns 0
+if (-1 > 0) return; // false => return -1 * 2;    // → returns -2
+Ans: [undefined, undefined, 0, -2]
+
+
+Q11)
+"use strict" // When will use the use strict Ans: not defined & error 
+{
+function abc(){
+    console.log('arjun')
+}
+}
+abc()
+
+
+Q12) Ascending
+let arr = [32,1,8,7,5,2]
+arr.sort((a,b) => a-b)
+console.log(arr) // Ans: [1, 2, 5, 7, 8, 32] with FED
+
+Descending?
+let arr = [32,1,8,7,5,2]
+arr.sort((a,b) => b-a)
+console.log(arr) // Ans: [32, 8, 7, 5, 2, 1] with FED
+
+
+Q13) Can you tell me local storage & session storage  //Ans: FED
+Q14) Can you tell me difference between React & Angular  //Ans: FED
+Q15) Can you tell me useMemo and useCallback in React
+Q16) Can you tell me mounting & unmounting      //Ans: FED
+Q17) Can you tell me useEffect syntax         //Ans: FED
+Q18) What is the role of app.js on react    //Ans: FED
+Q19) What is the role of bubble     //Ans: FED
+Q20) Tell me the realdom & virtual dom    //Ans: FED
+Q21) form validation how do you do?
+Q22) What is a Higher-Order function?   //Ans: FED
+Q23) what is difference between grid & flex on css  //Ans: FED
+Q24) Do you know required attributes    //Ans: FED
+Q25) difference between html & xhtml    //Ans: FED
+Q26) Can you tell me the  Pseudo-classes in css  //Ans: FED
+Q27) Can you tell me the  Pseudo-element in css  //Ans: FED
+Q28) Do you know image reflecting on CSS?   //Ans: FED
+Q29) what is difference between splice & slice   //Ans: FED
+
+Q30)
+const arr= [1,2,3,4,5,6,7,8]
+const newArr = arr.find(num => num>4)
+console.log(newArr)
+
+const arr= [1,2,3,4,5,6,7,8]
+const newArr = arr.filter(num => num>4)
+console.log(newArr)
+
+const arr= [1,2,3,4,5,6,7,8]
+const newArr = arr.map(num => num>4)
+console.log(newArr)
+
+Q31)
+const numbers = [1,2,3,4,5]
+const abc = numbers.map(item => item =2)
+console.log(abc)
+
+const numbers = [1,2,3,4,5]
+const abc = numbers.filter(item => item =2)
+console.log(abc)
+
+const numbers = [1,2,3,4,5]
+const abc = numbers.reduce(item => item =2)
+console.log(abc)
+
+Q32) What is Lexical Scope in JavaScript?  //Ans: FED
+Q33) Can we convert js file to json
+     // Ans: We can do it ✅ — but only if the .js file contains valid JSON data (no functions, no variables, just plain data). Otherwise, we can't ❌ convert directly without cleaning the code.  (Full breif explain to FED)
+Q34) when we receive a reference to an array  //Ans: FED
+Q35) what is the typeof Nan // Ans: NaN is of type "number", but it means "not a valid number". Ex: console.log(typeof NaN); => Ans: number
+
+
+Q36)
+var a =10
+console.log(a++) //prints 10 first, then increases a to 11.
+console.log(a) //Ans: 10 , 11
+
+var b = 10;
+console.log(++b); // 11 (increment first, then print)
+console.log(b);  // Ans: 11, 11
+
+Q37) what is some method in array 
+Q39) what is difference between map & foreach method  //Ans: FED
+Q40) What is difference between undefined and undeclared variables 
+        let x;
+        console.log(x); // ✅ undefined
+
+        console.log(y); // ❌ ReferenceError: y is not defined
+
+Q41) What is difference between React js & React native //Ans: FED
+
+Q42) function addd(){
+    console.log("added")
+    return 100+100
+}
+
+function subb(){
+    console.log('subtr')
+    return 200-200
+}
+
+let a = (addd(),subb()) //You are using the comma operator: (expression1, expression2)
+console.log(a)   
+// Ans: added, subtr, undefined
+
+// Explain1: (How the comma operator works:
+// It evaluates both expressions from left to right.
+// But it only returns the result of the last expression.)
+
+// Explain2: (What happens line by line?
+// addd() runs → prints "added" → returns 200, but this value is ignored.
+// subb() runs → prints "subtr" → returns 0, and this is assigned to a.
+// console.log(a) → prints 0. )
+
+Q43) function check() {
+  console.log("Before return");
+  return "done";
+  console.log("After return"); // ❌ This will never run
+}
+check();
+// Ans: Before return
+
+Q44) console.log(+"555")
+     console.log(+555)
+       // Ans: 555, 555 (brief ex to FED)
+
+Q45) let numbers =2
+        let a = !--numbers
+        let b = !--numbers
+        console.log(a,b)  
+//Ans: false, true
+
+Q46) a = 10
+     console.log(a)  // Ans: 10  
+ //  If you don’t declare a variable and just assign it like this
+// It becomes a global variable (if not in strict mode).
+// If you're using strict mode, this will throw an error: 'use strict';  a = 10; // ❌ ReferenceError: a is not defined
+    
+Q47) difference between div & span tag?  // Ans: FED
+Q48) what is empty element? Ans: br,img,hr,input tag (FED)
+Q49) What is a marquee tag? // Ans: FED
+Q50) how can hide elements in css?
+ // Ans: display: none; => No space will be reserved, Completely hides & 
+        visibility: hidden; => Takes up space, but not visible. & 
+        opacity: 0; => Makes the element fully transparent, but clickable and occupies space.
+
+Q51) Difference between border & outline?  // Ans: FED
+Q52) Difference between React (or JavaScript in general) "synchronous" and "asynchronous"  // Ans: FED
+Q53) What is ES6 Features  // Ans: FED

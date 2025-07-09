@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 10px;
+}
+
+/* Amaz Grid Box */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next row */
+    justify-content: center; /* Center cards horizontally */
+    gap: 20px; /* Space between cards */
+    width: 95%;
+    margin-left: 3%;
+    
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 340px;
+    flex: 1 1 340px; /* Allow cards to grow and shrink, with a minimum width of 300px */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    position: relative; 
+}
+
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.card-grid .item {
+    text-align: left;
+}
+
+.card-grid img {
+    width: 90%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.card-grid p {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+    
+}
+.card-grid a{
+    text-decoration: none;
+}
+
+.shopn {
+    padding: 7px;
+}
+
+.shop-now {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    bottom: 16px; /* Adjust bottom margin */
+    left: 20px; /* Adjust left margin */
+}
+
+.shop-now:hover {
+    color: rgb(197, 102, 14);
+}
+
+
+/* Amaz Scroll Bar */
+.bann {
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #fff;
+}
+
+.banner {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.banner h1 {
+    font-size: 22px;
+    margin: 0;
+    background-color: #fff;
+}
+
+.banner a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #007bff;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.banner a:hover {
+    text-decoration: underline;
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.carousel {
+    display: flex;
+    scrollbar-width: thin;
+    overflow-x: auto;
+}
+
+.itemm {
+    flex: 0 0 auto;
+    width: 150px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.itemm img {
+    max-width: 100%;
+    height: 90%;
+}
+
+#bts {
+    width: 40px;
+    height: 90px;
+    transform: translateY(-50%);
+    border-color: #fff;
+    background-color: #fff;
+    top: 50%;
+    font-size: 40px;
+    color: darkgray;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: absolute;
+}
+
+#bts:disabled {
+    background-color: transparent;
+}
+
+#bts:hover {
+    border-color: #007bff;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+

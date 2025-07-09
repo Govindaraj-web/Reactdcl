@@ -1,0 +1,21 @@
+.routerr{
+    display: flex;
+    width: 95%;
+    gap: 10px;
+    margin-top: 30px;
+}
+.routerr img{
+    max-width: 500px;
+}
+
+@media (max-width:780px) {
+    .routerr{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+       
+    }
+    .routerr img{
+        max-width: 300px;
+    }
+}

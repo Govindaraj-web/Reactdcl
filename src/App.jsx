@@ -30,9 +30,17 @@ function App() {
       <Link to='/Demo'>Demo</Link>
       <Link to='/amaz/AmazGridBo'>Amazon Grid Box</Link> 
       <Link to='/amaz/AmazScrollbar'>Amazon Scroll Bar</Link>
+      <Link to='bannerslide'>Amazon Banner</Link>
+      <Link to='shopcard'>Amazon Shopping card</Link>
       <Link to='/router_file/Routerr'>Router React</Link>
       <Link to='/usehook/UseMemo&UseCallback'>UseMemo & UseCallback</Link>
       <Link to='/usehook/UseRef'>UseRef Hook</Link>
+      <Link to='/usestate1'>UseState1</Link>
+      <Link to='/usestate2'>UseState2</Link>
+      <Link to='/usestate3'>UseState3</Link>
+      <Link to='/usestate4'>UseState4</Link>
+      <Link to='/usestate5'>UseState5</Link>
+      <Link to='useeffect2'>UseEffect hook</Link>
      </div>
 
            <div className="homepa">
@@ -40,6 +48,9 @@ function App() {
      <Link to='Gdrive'>G-Drive</Link>
      <Link to='Drivegallery'>G-Drive Gallery</Link>
      <Link to='dummyjson'>Json file Fetch online</Link>
+     <Link to='customert'>Customer Table</Link>
+     <Link to='Localstro'>Local Storage</Link>
+     <Link to='stringfy'>Stringfy</Link>
       
      </div>
 

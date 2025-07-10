@@ -1,0 +1,32 @@
+
+Ctrl + / = Single Line Commend
+Ctrl + / = Full line (Multiple line ) Commend
+Shift + Alt + A = Commend React 
+
+
+Ctrl + Alt + R = rafce (Search snippet & automatic page function )
+
+rafc directly type function overall will come
+
+Alt + z = Screen size adjustable ( Word Warp)
+
+Alt + Shift + f = VS code Alignment
+
+Tab = forward line, multiple lines at the same Time
+Shift + Tab = backward line, multiple lines at the same Time 
+
+Shift + Ctrl + P = Simple browser (without browser we can see inside VS)
+
+
+json dummyData on Online Link: https://jsonplaceholder.typicode.com/posts (Json How to fetch the data from Resources link) && React video (io channel) Time: 4:18
+
+json install after commend line(data file link):
+(i)npm install -g json-server, npm list -g --depth=0 
+(ii) npx json-server --watch data/dummyData.json --port 3000 --static ./data
+
+
+terminal some time blocked next line we can't use & run anything = ctrl+c
+
+And operator 1*1 = 1 (t), 1*0 =0 (f), 
+Or operator 1+1 =2 (t), 1+0 =1 (t), 0+0=0 (f)
+

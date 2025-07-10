@@ -23,7 +23,17 @@ import Arjuna from './Gdrive/Arjuna.jsx'
 import DummyJson from './Jsononline/DummyJson.jsx'
 import DriveGallery from './Gdrive/DriveGallery.jsx'
 import Reactinstalandshortcut from './Reactapp1/Reactinstalandshortcut.jsx'
-
+import Usestate1 from './usehook/Usestate1.jsx'
+import CustomerTable from './Storage/CustomerTable.jsx'
+import LocalStores from './Storage/LocalStores.jsx'
+import Usestate2 from './usehook/Usestate2.jsx'
+import Usestate3 from './usehook/Usestate3.jsx'
+import Usestate4 from './usehook/Usestate4.jsx'
+import Stringfy from './Storage/Stringfy.jsx'
+import UseEffect2 from './usehook/UseEffect2.jsx'
+import Bannerslide from './amaz/Bannerslide.jsx'
+import Shoppingcard from './amaz/Shoppingcard.jsx'
+import Bgcolorchange from './usehook/Bgcolorchange.jsx'
 
 const router = createBrowserRouter ([
   {
@@ -41,6 +51,14 @@ const router = createBrowserRouter ([
   {
     path:'/amaz/AmazScrollbar',
     element:<AmazScrollbar />
+  },
+  {
+    path:'bannerslide',
+    element:<Bannerslide />
+  },
+  {
+    path:'shopcard',
+    element:<Shoppingcard />
   },
   {
     path: '/router_file/Routerr',
@@ -109,6 +127,42 @@ const router = createBrowserRouter ([
   {
     path:'dummyjson',
     element:<DummyJson />
+  },
+  {
+    path:'usestate1',
+    element:<Usestate1 />
+  },
+  {
+    path:'customert',
+    element:<CustomerTable />
+  },
+  {
+    path:'Localstro',
+    element:<LocalStores />
+  },
+  {
+    path:'usestate2',
+    element:<Usestate2 />
+  },
+  {
+    path:'usestate3',
+    element:<Usestate3 />
+  },
+  {
+    path:'usestate4',
+    element:<Usestate4 />
+  },
+  {
+    path:'usestate5',
+    element:<Bgcolorchange />
+  },
+  {
+    path:'stringfy',
+    element:<Stringfy />
+  },
+  {
+    path:'useeffect2',
+    element:<UseEffect2 />
   }
 ])
 

@@ -35,19 +35,21 @@ function Props2() {
             rating: 5
         }
     ]
-
     const coursesList = courses.map((course, index) => (
     <Props1
-      key = {index}    
+      key = {index}  
       name={course.name}
-      image={course.image}
+      image={course.image} 
       price={course.price}
-      rating={course.rating}
-    />
+      rating={course.rating}  />
   ));
   return (
-    <>{coursesList}</>
-  )
-}
-
+    <>
+    {coursesList}
+        <div className='routerr'>
+        <img src="../assets/props1.png" alt="props1" />
+        <img src="../assets/props2.png" alt="props2" />
+    </div>
+    </>
+  )}
 export default Props2

@@ -46,10 +46,14 @@ function Click2() {
       rating={course.rating}
     />
   ));
-
-
   return (
-     <>{coursesList}</>
+     <>{coursesList}
+            <div className='routerr'>
+                <img src="../assets/clicke1.png" alt="clickeventhandling" />
+                <img src="../assets/clicke2.png" alt="clickeventhandling" />
+                <img src="../assets/clicke3.png" alt="console_log" />
+            </div>
+        </>
   )
 }
 

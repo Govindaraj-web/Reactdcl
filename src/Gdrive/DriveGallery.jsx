@@ -8,6 +8,7 @@ const driveFileIds = [
 
 function DriveGallery() {
   return (
+    <>
     <div style={{ padding: '20px' }}>
       <h2 style={{ textAlign: 'center' }}>Google Drive Files Gallery</h2>
       <div
@@ -45,6 +46,10 @@ function DriveGallery() {
         ))}
       </div>
     </div>
+      <div className='routerr'>
+        <img src="../assets/gdrive2.png" alt="DriveGallery" />
+    </div>
+    </>
   );
 }
 

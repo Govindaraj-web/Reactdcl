@@ -8,17 +8,21 @@ function Cssmethod() {
         backgroundColor: "green",
     }
 
-
     return (
-  // <div style={{backgroundColor:"green", color:"white"}}>  Inline CSS
-        <div style={styles}>  {/* Internal Css method */}
-            {/* <div className="card"> External Css method  */}
+        <>
+    <div style={styles}>  {/* Internal Css method */}
+ {/* <div className="card"> External Css method  */}
+        <h3>{course1}</h3>
+        <p style={{backgroundColor:"blue", color:"white"}}>
+            This is Css Method code</p>  {/* Inline CSS */}
 
-            <h3>{course1}</h3>
-            <p>This is Css Method code</p>
-
-        </div>
+    </div>
+         <div className='routerr'>
+        <img src="../assets/cssmeth.png" alt="cssmethod" />
+    </div>
+    </>
     )
 }
 
 export default Cssmethod
+

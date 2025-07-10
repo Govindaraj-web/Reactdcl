@@ -36,9 +36,10 @@ function Sortfilter() {
         }
     ]
 
-    courses.sort((x, y) => y.price - x.price)
-    // courses.sort((x,y) => y.rating -x.rating) 
+    // courses.sort((x,y) => x.rating -y.rating) // ascending order
+    courses.sort((x, y) => y.rating - x.rating) // desascending order
 
+    // courses.sort((x, y) => y.price - x.price)
     const vfmCourses = courses.filter((course) => course.price < 200)
 
     // const coursesList = courses.map((course, index) => sort line
@@ -54,8 +55,13 @@ function Sortfilter() {
         />
     ));
     return (
-        <>{coursesList}</>
+        <>{coursesList}
+            <div className='routerr'>
+                <img src="../assets/props1.png" alt="props1" />
+                <img src="../assets/props2.png" alt="props2" />
+                <img src="../assets/sortfilter.png" alt="cssmethod" />
+            </div>
+        </>
     )
 }
-
 export default Sortfilter

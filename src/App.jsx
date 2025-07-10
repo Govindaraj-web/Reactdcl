@@ -11,7 +11,8 @@ function App() {
    
     <div className="homepa">
       <h1>React App 1</h1> 
-      <Link to='/Cssmethod'>CSS Method</Link>
+      <Link to='/reactinst'>React install and Shortcut Key</Link>
+      <Link to='/Cssmethod'>CSS Method </Link>
       <Link to='/Propsmethod'>Props Method</Link>
       <Link to='/sortfilter'>Sort & Filter</Link>
       <Link to='/clickevents'>Click Events</Link>

@@ -5,8 +5,6 @@ function Usestatehandledelete1(props) {
     
         const [discount,setDiscount] =useState(props.price)
     
-    
-    
         function BuyCourse(amt){
             setPurchased('true')
             setDiscount(discount-amt)

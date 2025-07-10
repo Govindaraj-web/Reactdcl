@@ -7,7 +7,26 @@
 .routerr img{
     max-width: 500px;
 }
-
+.useeff{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    gap: 10px;
+    margin-top: 30px;
+}
+.useeff img{
+    max-width: 450px;
+}
+.amazgr{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    gap: 10px;
+    margin-top: 30px;
+}
+.amazgr img{
+    max-width: 850px;
+}
 .propscard{
     background-color:beige;
     max-width: 200px;
@@ -33,4 +52,8 @@
     .routerr img{
         max-width: 300px;
     }
+    .amazgr img{
+    max-width: 350px;
+}
+
 }

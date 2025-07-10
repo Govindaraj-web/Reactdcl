@@ -8,49 +8,49 @@ function Usestatehook2() {
 
     const courses = [
         {
-            id: 1, 
-            name:"HTML",
-            price:"199",
+            id: 1,
+            name: "HTML",
+            price: "199",
             image: html,
             rating: 5
         },
         {
             id: 2,
-            name:"CSS",
-            price:"199",
+            name: "CSS",
+            price: "199",
             image: css,
             rating: 5
         },
         {
             id: 3,
-            name:"JavaScript",
-            price:"499",
+            name: "JavaScript",
+            price: "499",
             image: js,
             rating: 4
         },
         {
             id: 4,
-            name:"React JS",
-            price:"999",
+            name: "React JS",
+            price: "999",
             image: js,
             rating: 5
         }
     ]
-
     const coursesList = courses.map((course, index) => (
-    <Usestatehook1
-      key = {index}    
-      name={course.name}
-      image={course.image}
-      price={course.price}
-      rating={course.rating}
-    />
-  ));
+        <Usestatehook1
+            key={index} name={course.name}
+            image={course.image} price={course.price}
+            rating={course.rating}
+        />
+    ));
 
-
-  return (
-   <>{coursesList}</>
-  )
+    return (
+        <>{coursesList}
+            <div className='routerr'>
+                <img src="../assets/usestate1.png" alt="usestate1" />
+                <img src="../assets/usestate2.png" alt="usestate2" />
+            </div>
+        </>
+    )
 }
-
 export default Usestatehook2

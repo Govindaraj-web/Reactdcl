@@ -31,6 +31,9 @@ function Usememousecallback() {
       
       <button onClick={()=>setDark((curr) => !curr)}>Toggle theme</button>
       <h1 style={toggleTheme}  > Theme color</h1>
+       <div className='routerr'>
+                <img src="../assets/usememo1.png" alt="usememo" />
+            </div>
     </div>
   )
 }

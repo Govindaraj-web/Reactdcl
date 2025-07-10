@@ -1,6 +1,0 @@
-JSON Terminal cmd => 
-
-one time only asking json server install y/n just click Y:
-
-cmd line just copy & paste:  npx json-server --watch data/dummyData.json --port 3000 --static ./data  
-

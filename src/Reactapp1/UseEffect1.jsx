@@ -68,6 +68,13 @@ const coursesList = courses.map((course) => (
     <>
     {coursesList}
     <button onClick={()=>setDummy(false)}> dummy button</button>
+    <div className='useeff'>
+                <img src="../assets/usestatehd1.png" alt="usestate_handle_delete1" />
+                <img src="../assets/usestatehd2.png" alt="usestate_handle_delete2" />
+                <img src="../assets/useeffect1.png" alt="useeffect1" />
+                <img src="../assets/useeffect2.png" alt="useeffect_nodes" />
+            </div>
+           
     </>
     
   )

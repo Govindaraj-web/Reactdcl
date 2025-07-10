@@ -112,6 +112,10 @@ function ScrollExample() {
         <h2>Contact Section</h2>
         <p>This is the Contact section you scrolled to using useRef.</p>
       </div>
+      <div className='amazgr'>
+                <img src="../assets/useref1.png" alt="useref" />
+  
+            </div>
     </div>
   );
 }

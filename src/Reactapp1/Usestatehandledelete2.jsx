@@ -1,64 +1,63 @@
-import { useState } from 'react'
 import Usestatehandledelete1 from './Usestatehandledelete1'
 import css from '/assets/hard.png'
 import js from '/assets/yotu.png'
 import html from '/assets/chrome.jpg'
+import { useState } from 'react'
 
 function Usestatehandledelete2() {
+    const [courses, setCourses] = useState([
+        {
+            id: 1,
+            name: "HTML",
+            price: "199",
+            image: html,
+            rating: 5
+        },
+        {
+            id: 2,
+            name: "CSS",
+            price: "199",
+            image: css,
+            rating: 5
+        },
+        {
+            id: 3,
+            name: "JavaScript",
+            price: "499",
+            image: js,
+            rating: 4
+        },
+        {
+            id: 4,
+            name: "React JS",
+            price: "999",
+            image: js,
+            rating: 5
+        }
+    ])
 
-    const [courses,setCourses] = useState( [
-    {
-        id: 1, 
-        name:"HTML",
-        price:"199",
-        image: html,
-        rating: 5
-    },
-    {
-        id: 2,
-        name:"CSS",
-        price:"199",
-        image: css,
-        rating: 5
-    },
-    {
-        id: 3,
-        name:"JavaScript",
-        price:"499",
-        image: js,
-        rating: 4
-    },
-    {
-        id: 4,
-        name:"React JS",
-        price:"999",
-        image: js,
-        rating: 5
+    //Handle Delete Function 
+    function handleDelete(id) {
+        // console.log(id)
+        const newCourses = courses.filter((course) => course.id != id)
+        setCourses(newCourses)
     }
-])
-//Handle Delete Function 
-function handleDelete(id){
-    // console.log(id)
-    const newCourses = courses.filter((course) => course.id !=id)
-    setCourses(newCourses)
+
+    const coursesList = courses.map((course) => (
+        <Usestatehandledelete1
+            key={course.id} name={course.name}
+            image={course.image} price={course.price}
+            rating={course.rating} delete={handleDelete}
+            id={course.id}
+        />
+    ));
+    return (
+      <>{coursesList}
+            <div className='routerr'>
+                <img src="../assets/usestatehd1.png" alt="usestate_handle_delete1" />
+                <img src="../assets/usestatehd2.png" alt="usestate_handle_delete2" />
+            </div>
+        </>
+)
 }
-
-const coursesList = courses.map((course) => (
-    <Usestatehandledelete1
-      key = {course.id}    
-      name={course.name}
-      image={course.image}
-      price={course.price}
-      rating={course.rating}
-      delete = {handleDelete}
-      id={course.id}
-    />
-  ));
-
-
-  return (
-     <>{coursesList}</>
-  )
-}
-
 export default Usestatehandledelete2

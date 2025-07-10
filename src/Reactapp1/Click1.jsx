@@ -11,7 +11,7 @@ function Click1(props) {
         <h3>{props.name}</h3>
         <p>{props.price}</p>
 
-        <button onClick={(event) => {BuyCourse(20,event)}}>Buy Now</button>
+        <button onClick={(event) =>{BuyCourse(20,event)}}>Buy Now</button>
     </div>
   )
 }

@@ -22,6 +22,7 @@ import Usefetch from './Reactapp1/Usefetch.jsx'
 import Arjuna from './Gdrive/Arjuna.jsx'
 import DummyJson from './Jsononline/DummyJson.jsx'
 import DriveGallery from './Gdrive/DriveGallery.jsx'
+import Reactinstalandshortcut from './Reactapp1/Reactinstalandshortcut.jsx'
 
 
 const router = createBrowserRouter ([
@@ -52,6 +53,10 @@ const router = createBrowserRouter ([
   {
     path:'/usehook/UseRef',
     element:<Useref />
+  },
+  {
+    path:'/reactinst',
+    element:<Reactinstalandshortcut />
   },
   {
     path:'Cssmethod',

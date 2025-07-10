@@ -20,6 +20,7 @@ const DummyJson = () => {
   if (loading) return <p>Loading posts...</p>;
 
   return (
+    <>
     <div>
       <h1>Post List</h1>
       <ul>
@@ -31,6 +32,10 @@ const DummyJson = () => {
         ))}
       </ul>
     </div>
+         <div className='routerr'>
+        <img src="../assets/jsondummy.png" alt="Online_Fetch_Json" />
+    </div>
+    </>
   );
 };
 

@@ -99,6 +99,15 @@ function AmazScrollbar() {
         </div>
       ))}
     </div>
+    <div className='amazgr'>
+                <img src="../assets/amazscroll1.png" alt="amazscroll1" />
+                <img src="../assets/amazscroll2.png" alt="amazscroll2" />
+                <img src="../assets/amazscroll3.png" alt="amazscroll3" />
+                <img src="../assets/amazscroll4.png" alt="amazscroll4" />
+                <img src="../assets/amazscroll5.png" alt="amazscroll5" />
+                <img src="../assets/amazscroll6.png" alt="amazscroll6" />
+  
+            </div>
     </>
   )
 }

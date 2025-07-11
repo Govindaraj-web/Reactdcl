@@ -34,6 +34,7 @@ import UseEffect2 from './usehook/UseEffect2.jsx'
 import Bannerslide from './amaz/Bannerslide.jsx'
 import Shoppingcard from './amaz/Shoppingcard.jsx'
 import Bgcolorchange from './usehook/Bgcolorchange.jsx'
+import Quest from './Reactapp1/Quest.jsx'
 
 const router = createBrowserRouter ([
   {
@@ -163,6 +164,10 @@ const router = createBrowserRouter ([
   {
     path:'useeffect2',
     element:<UseEffect2 />
+  },
+  {
+    path:'ques',
+    element:<Quest />
   }
 ])
 

@@ -110,33 +110,47 @@ Q29) what is difference between splice & slice   //Ans: FED
 Q30)
 const arr= [1,2,3,4,5,6,7,8]
 const newArr = arr.find(num => num>4)
-console.log(newArr)
+console.log(newArr) //Ans: 5
 
 const arr= [1,2,3,4,5,6,7,8]
 const newArr = arr.filter(num => num>4)
-console.log(newArr)
+console.log(newArr) //Ans: [5,6,7,8]
 
 const arr= [1,2,3,4,5,6,7,8]
 const newArr = arr.map(num => num>4)
-console.log(newArr)
+console.log(newArr) //Ans: [
+  false, false,
+  false, false,
+  true,  true,
+  true,  true
+]
 
 Q31)
 const numbers = [1,2,3,4,5]
 const abc = numbers.map(item => item =2)
-console.log(abc)
+console.log(abc) //Ans: [
+  4, 4, 4, 4,
+  4, 4, 4, 4
+]
 
 const numbers = [1,2,3,4,5]
 const abc = numbers.filter(item => item =2)
-console.log(abc)
+console.log(abc) //Ans: [
+  1, 2, 3, 4,
+  5, 6, 7, 8
+]
 
 const numbers = [1,2,3,4,5]
 const abc = numbers.reduce(item => item =2)
-console.log(abc)
-
+console.log(abc)  //Ans: 4
+ 
 Q32) What is Lexical Scope in JavaScript?  //Ans: FED
+
 Q33) Can we convert js file to json
      // Ans: We can do it ✅ — but only if the .js file contains valid JSON data (no functions, no variables, just plain data). Otherwise, we can't ❌ convert directly without cleaning the code.  (Full breif explain to FED)
+
 Q34) when we receive a reference to an array  //Ans: FED
+
 Q35) what is the typeof Nan // Ans: NaN is of type "number", but it means "not a valid number". Ex: console.log(typeof NaN); => Ans: number
 
 
@@ -209,6 +223,7 @@ Q46) a = 10
 Q47) difference between div & span tag?  // Ans: FED
 Q48) what is empty element? Ans: br,img,hr,input tag (FED)
 Q49) What is a marquee tag? // Ans: FED
+
 Q50) how can hide elements in css?
  // Ans: display: none; => No space will be reserved, Completely hides & 
         visibility: hidden; => Takes up space, but not visible. & 

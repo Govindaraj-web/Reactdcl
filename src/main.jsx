@@ -1,5 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+
 import './index.css'
 import App from './App.jsx'
 import {createBrowserRouter,RouterProvider} from 'react-router-dom'
@@ -35,6 +36,15 @@ import Bannerslide from './amaz/Bannerslide.jsx'
 import Shoppingcard from './amaz/Shoppingcard.jsx'
 import Bgcolorchange from './usehook/Bgcolorchange.jsx'
 import Quest from './Reactapp1/Quest.jsx'
+import CodeSnippet from './CodeSnippet/CodeSnippet.jsx'
+import ClientJwt from './Philonet/ClientJwt.jsx'
+import GoogleLoginweb from './Philonet/GoogleLoginweb.jsx'
+import SocketClient from './Philonet/SocketClient.jsx';
+import CodeList1 from './CodeSnippet/CodeList1.jsx';
+import CodeSnippetColors from './CodeSnippet/CodeSnippetColors.jsx';
+
+
+
 
 const router = createBrowserRouter ([
   {
@@ -168,7 +178,32 @@ const router = createBrowserRouter ([
   {
     path:'ques',
     element:<Quest />
-  }
+  },
+  {
+    path:'codesni',
+    element: <CodeSnippet />
+  },
+  {
+    path: 'jwt',
+    element: <ClientJwt />
+  },
+  {
+    path: 'googlelogin',
+    element: <GoogleLoginweb />
+  },
+  {
+    path: 'socket',
+    element:<SocketClient />
+  },
+  {
+    path: 'codelist1',
+    element: <CodeList1 />
+  },
+  {
+    path: 'codecolors',
+    element: <CodeSnippetColors />
+  },
+  
 ])
 
 createRoot(document.getElementById('root')).render(

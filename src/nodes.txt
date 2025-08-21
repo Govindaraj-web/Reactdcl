@@ -1,0 +1,10 @@
+bootstrap install method:
+=> npm install bootstrap
+=> Then import in index.js or main.jsx: import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+router install method:
+=> npm install react-router-dom 
+
+
+

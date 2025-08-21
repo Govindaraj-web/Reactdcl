@@ -10,7 +10,7 @@
 .homepa{
   display: flex;
   flex-direction: column;
-  margin: 5%;
+  margin: 4%;
   gap: 8px;
  
 }
